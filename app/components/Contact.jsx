@@ -195,12 +195,14 @@ const Contact = () => {
               `}
               style={{ transformStyle: "preserve-3d" }}
             >
-              <div className="text-3xl text-white/90 transition-transform duration-500 group-hover:scale-125">
+              <div className="text-3xl text-white/90 transition-transform duration-500 group-hover:scale-125 flex-shrink-0">
                 {contact.icon}
               </div>
-              <div>
+              <div className="min-w-0 flex-1">
                 <p className="text-white/70 text-sm">{contact.label}</p>
-                <p className="font-semibold break-words">{contact.value}</p>
+                <p className="font-semibold break-words overflow-wrap-anywhere">
+                  {contact.value}
+                </p>
               </div>
             </a>
           );
@@ -234,6 +236,11 @@ const Contact = () => {
 
         .animate-pulse-slow {
           animation: pulse-slow 4s ease-in-out infinite;
+        }
+
+        .overflow-wrap-anywhere {
+          overflow-wrap: anywhere;
+          word-break: break-word;
         }
       `}</style>
     </section>
