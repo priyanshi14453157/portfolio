@@ -196,7 +196,7 @@ const ElectronicsProjects = () => {
                     </p>
                   </div>
                   <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
-                    🔗
+                    
                   </span>
                 </div>
               </div>
@@ -225,7 +225,7 @@ const ElectronicsProjects = () => {
                     </p>
                   </div>
                   <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
-                    🔗
+                    
                   </span>
                 </div>
               </div>
@@ -249,12 +249,13 @@ const ElectronicsProjects = () => {
                       Digital Counter Using Logic ICs
                     </h3>
                     <p className="text-white/60 mt-1 text-sm sm:text-base">
-                      Developed digital circuits using TTL/CMOS logic ICs. Gained hands-on experience in hardware assembly and
+                      Developed digital circuits using TTL/CMOS logic ICs.
+                      Gained hands-on experience in hardware assembly and
                       debugging.
                     </p>
                   </div>
                   <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
-                    🔗
+                    
                   </span>
                 </div>
               </div>
@@ -325,9 +326,16 @@ const ElectronicsProjects = () => {
                       A donation and fundraising platform for real-world causes.
                     </p>
                   </div>
-                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
+
+                  <a
+                    href="https://github.com/Anmol-87/Get-me-a-chai"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg ml-0 sm:ml-4 self-end sm:self-center hover:scale-110 transition-transform duration-200"
+                    aria-label="View GitHub Repository"
+                  >
                     🔗
-                  </span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -355,9 +363,16 @@ const ElectronicsProjects = () => {
                       A platform to educate and manage waste segregation.
                     </p>
                   </div>
-                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
+
+                  <a
+                    href="https://github.com/Anmol-87/TechSprint"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg ml-0 sm:ml-4 self-end sm:self-center hover:scale-110 transition-transform duration-200"
+                    aria-label="View GitHub Repository"
+                  >
                     🔗
-                  </span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -379,15 +394,22 @@ const ElectronicsProjects = () => {
                 <div className="w-full max-w-lg rounded-xl border border-white/15 bg-white/5 backdrop-blur-md p-4 sm:p-5 shadow-md flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                      URL Shortener
+                      AI Field Force Intelligence
                     </h3>
                     <p className="text-white/60 mt-1 text-sm sm:text-base">
-                      Convert long URLs into short, shareable links.
+                      Gemini AI-powered field intelligence platform.
                     </p>
                   </div>
-                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
+
+                  <a
+                    href="https://github.com/Anmol-87/AgriAssist"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg ml-0 sm:ml-4 self-end sm:self-center hover:scale-110 transition-transform duration-200"
+                    aria-label="View GitHub Repository"
+                  >
                     🔗
-                  </span>
+                  </a>
                 </div>
               </div>
             </div>
