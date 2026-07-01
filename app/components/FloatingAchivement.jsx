@@ -4,12 +4,18 @@ import React from "react";
 
 const FloatingAchievements = () => {
   const achievements = [
-    "Digital Electronics Projects",
-    "Embedded Circuit Design",
-    "Full-Stack Web Development",
-    "Problem Solving & DSA",
-    "Open Source Learning",
-    "IoT & Hardware Projects",
+    "Cybersecurity Research Intern – IIT Gandhinagar",
+    "AI Intern – IBM SkillsBuild x 1M1B",
+    "IEEE Research Paper Co-Author",
+    "Website Safety Checker (Nmap)",
+    "PW Vault – Secure Password Manager",
+    "AI-Powered IP Analyser",
+    "OSINT Investigation",
+    "Network Security",
+    "Kali Linux & Penetration Testing",
+    "TryHackMe Labs Completed",
+    "IBM Cybersecurity Fundamentals Certified",
+    "Cisco Introduction to Cybersecurity",
   ];
 
   return (
@@ -64,7 +70,7 @@ const FloatingAchievements = () => {
           padding: 20px 30px;
           margin-right: 60px;
           border: 1px solid rgba(255, 255, 255, 0.2);
-          backdrop-blur: blur(12px);
+          backdrop-filter: blur(12px);
           border-radius: 15px;
           text-align: center;
           white-space: nowrap;

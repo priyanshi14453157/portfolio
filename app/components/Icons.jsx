@@ -1,32 +1,36 @@
 "use client";
 
 import {
-  FaReact,
-  FaJs,
+  FaPython,
+  FaLinux,
+  FaGitAlt,
   FaHtml5,
   FaCss3Alt,
-  FaGitAlt,
-  FaPython,
+  FaJs,
+  FaDatabase,
+  FaShieldAlt,
+  FaRobot,
+  FaNetworkWired,
 } from "react-icons/fa";
-import {
-  SiTailwindcss,
-  SiNextdotjs,
-  SiArduino,
-  SiEspressif,
-} from "react-icons/si";
+
+import { SiMongodb, SiKalilinux, SiGithub, SiC } from "react-icons/si";
 
 const SkillsCarousel = () => {
   const icons = [
-    <FaReact key="react" />,
-    <SiTailwindcss key="tailwind" />,
-    <SiNextdotjs key="nextjs" />,
-    <FaJs key="js" />,
-    <FaHtml5 key="html" />,
-    <FaCss3Alt key="css" />,
-    <FaGitAlt key="git" />,
-    <FaPython key="python" />,
-    <SiArduino key="arduino" />,
-    <SiEspressif key="esp32" />,
+    <FaShieldAlt key="security" title="Cybersecurity" />,
+    <SiKalilinux key="kali" title="Kali Linux" />,
+    <FaNetworkWired key="network" title="Network Security" />,
+    <FaPython key="python" title="Python" />,
+    <SiC key="c" title="C Programming" />,
+    <FaJs key="javascript" title="JavaScript" />,
+    <FaHtml5 key="html" title="HTML5" />,
+    <FaCss3Alt key="css" title="CSS3" />,
+    <SiMongodb key="mongodb" title="MongoDB" />,
+    <FaDatabase key="database" title="SQL" />,
+    <FaGitAlt key="git" title="Git" />,
+    <SiGithub key="github" title="GitHub" />,
+    <FaLinux key="linux" title="Linux" />,
+    <FaRobot key="ai" title="Artificial Intelligence" />,
   ];
 
   return (
@@ -62,7 +66,6 @@ const SkillsCarousel = () => {
         </div>
       </div>
 
-      {/* CSS */}
       <style jsx>{`
         .marquee {
           display: flex;

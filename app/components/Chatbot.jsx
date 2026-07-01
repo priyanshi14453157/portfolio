@@ -8,7 +8,7 @@ export default function Chatbot() {
   const [messages, setMessages] = useState([
     {
       sender: "bot",
-      text: "Hello! I'm Anmol's AI assistant. Select a question below to learn more about him.",
+      text: "Hello! I'm Priyanshi's AI assistant. Select a question below to learn more about her.",
     },
   ]);
   const [thinking, setThinking] = useState(false);
@@ -19,62 +19,62 @@ export default function Chatbot() {
     {
       question: "What is your name?",
       answer:
-        "I am Anmol's AI assistant 🤖 - designed to help you learn more about Anmol Chauhan's work and skills.",
+        "I am Priyanshi's AI assistant 🤖 - designed to help you learn more about Priyanshi's work, projects, and cybersecurity skills.",
     },
     {
       question: "How can I contact you?",
       answer:
-        "You can contact Anmol via email at anmolkumarchauhan7717@gmail.com or connect on LinkedIn: https://www.linkedin.com/in/anmol-chauhan-7a1469328/",
+        "You can contact Priyanshi via email at priyanshi14453157@gmail.com or connect with her on LinkedIn.",
     },
     {
       question: "What projects have you done?",
       answer:
-        "Anmol has worked on: Smart Waste Segregation System, ESP32 IoT Monitoring, Embedded Circuits, Get Me A Chai (fundraising platform), and more. Check the Projects section for details!",
+        "Priyanshi has worked on AI-Powered IP Analyser, Website Safety Checker, PW Vault Password Manager, and cybersecurity research projects. Check the Projects section for more details!",
     },
     {
       question: "Hello",
       answer:
-        "Hello there! 👋 I'm here to tell you about Anmol's work in Electronics Engineering and Web Development.",
+        "Hello there! 👋 I'm here to tell you about Priyanshi's work in Cybersecurity, AI, and Network Security.",
     },
     {
       question: "Hi",
       answer:
-        "Hi! Welcome to Anmol's portfolio. Feel free to ask about his projects, skills, or background.",
+        "Hi! Welcome to Priyanshi's portfolio. Feel free to ask about her projects, skills, or background.",
     },
     {
       question: "What's your education?",
       answer:
-        "Anmol is an Electronics Engineering student at IIT Madras, currently learning and building modern web applications alongside his electronics projects.",
+        "Priyanshi is pursuing a B.Tech in Cybersecurity at Silver Oak University and a B.S. in Data Science and Applications from IIT Madras.",
     },
     {
       question: "What are your skills?",
       answer:
-        "Anmol has expertise in: Electronics (Circuit Design, Embedded Systems, Microcontrollers) and Web Development (React, Next.js, Tailwind CSS, JavaScript).",
+        "Priyanshi has expertise in Cybersecurity, Network Security, OSINT, Kali Linux, Nmap, Python, Cryptography, AI-powered security tools, MongoDB, and SQL.",
     },
     {
       question: "Tell me about your background",
       answer:
-        "Anmol is passionate about blending hardware and software. His core foundation is in Electronics Engineering, while he actively builds modern web applications using React and Next.js.",
+        "Priyanshi is passionate about cybersecurity and AI, building intelligent security tools focused on threat analysis, network security, and OSINT.",
     },
     {
       question: "What technologies do you use?",
       answer:
-        "For Electronics: Arduino, ESP32, MATLAB, LT SPICE. For Web: React.js, Next.js, Tailwind CSS, MongoDB, JavaScript. For Tools: Git, GitHub, Python.",
+        "Priyanshi works with Python, Kali Linux, Nmap, MongoDB, SQL, JavaScript, HTML, CSS, Git, GitHub, Linux, and AI-powered security technologies.",
     },
     {
       question: "Any upcoming projects?",
       answer:
-        "Anmol is currently working on advanced IoT systems and expanding his full-stack web development skills with more complex applications.",
+        "Priyanshi is currently exploring advanced cybersecurity research, AI-assisted threat intelligence, and secure application development.",
     },
     {
       question: "What's your goal?",
       answer:
-        "To become a proficient engineer who can seamlessly integrate hardware and software solutions, creating innovative projects that solve real-world problems.",
+        "To build intelligent cybersecurity solutions that leverage AI to protect systems and solve real-world security challenges.",
     },
     {
       question: "Where can I see your code?",
       answer:
-        "All of Anmol's projects are available on GitHub: https://github.com/Anmol-87. Feel free to check out the repositories!",
+        "You can explore Priyanshi's cybersecurity projects on her GitHub profile. Feel free to check out her repositories!",
     },
   ];
 
@@ -140,7 +140,7 @@ export default function Chatbot() {
               </div>
               <div>
                 <span className="font-bold text-base md:text-lg text-white">
-                  Anmol's AI Assistant
+                  Priyanshi's AI Assistant
                 </span>
                 <p className="hidden md:block text-xs text-gray-300">
                   Select a question below

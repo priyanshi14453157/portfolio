@@ -4,7 +4,7 @@ import React from "react";
 import useScrollFade from "../../hooks/useScrollFade";
 
 const AboutWithCoreFocusAndSkills = () => {
-  // ✅ Using hook for each card
+  // Using hook for each card
   const [firstCardRef, showFirst] = useScrollFade(0.3);
   const [secondCardRef, showSecond] = useScrollFade(0.3);
   const [thirdCardRef, showThird] = useScrollFade(0.3);
@@ -35,7 +35,7 @@ const AboutWithCoreFocusAndSkills = () => {
 
         {/* RIGHT: Cards */}
         <div className="sm:ml-8 md:ml-12 flex-1 flex flex-col space-y-10 sm:space-y-20">
-          {/* ✅ ABOUT CARD */}
+          {/* ABOUT CARD */}
           <div
             ref={firstCardRef}
             className={`transition-all duration-700 ease-out transform ${
@@ -52,16 +52,18 @@ const AboutWithCoreFocusAndSkills = () => {
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
                 About Me
               </h2>
+
               <p className="text-white/70 leading-relaxed text-sm sm:text-base">
-                I'm Anmol Chauhan, an Electronics Engineering student with a
-                strong interest in web development. I'm learning and building
-                modern, responsive websites through curiosity, creativity, and
-                my passion for technology.
+                I'm Priyanshi, a Cybersecurity undergraduate with a strong
+                foundation in Computer Science and Data Science. I enjoy
+                building AI-powered security tools, exploring network security,
+                penetration testing, and OSINT while creating practical
+                solutions to real-world cybersecurity challenges.
               </p>
             </div>
           </div>
 
-          {/* ✅ CORE FOCUS CARD */}
+          {/* CORE FOCUS CARD */}
           <div
             ref={secondCardRef}
             className={`relative sm:ml-16 md:ml-60 transition-all duration-700 ease-out transform ${
@@ -78,16 +80,18 @@ const AboutWithCoreFocusAndSkills = () => {
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
                 Core Focus
               </h2>
+
               <p className="text-white/70 leading-relaxed text-sm sm:text-base">
-                My primary foundation is in Electronics Engineering, where I
-                enjoy working with circuits, embedded systems, and core
-                problem-solving. Alongside this, I explore web development as a
-                creative way to build modern digital experiences.
+                My primary focus is Cybersecurity, specializing in network
+                security, cryptography, penetration testing, threat analysis,
+                and OSINT. I also integrate Artificial Intelligence into
+                security applications to simplify threat investigation and make
+                cybersecurity more accessible.
               </p>
             </div>
           </div>
 
-          {/* ✅ CORE SKILLS CARD */}
+          {/* CORE SKILLS CARD */}
           <div
             ref={thirdCardRef}
             className={`transition-all duration-700 ease-out transform ${
@@ -102,48 +106,54 @@ const AboutWithCoreFocusAndSkills = () => {
               before:w-8 sm:before:w-14 before:h-[2px] before:bg-white/30"
             >
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
-                Core Skills (Electronics)
+                Core Skills (Cybersecurity)
               </h2>
+
               <div className="text-white/70 leading-relaxed text-sm sm:text-base">
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Circuit Analysis</span>
+                  <span>Network Security</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Embedded Systems</span>
+                  <span>Cryptography Fundamentals</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>
-                    Microcontrollers (Arduino, ESP32), MATLAB, LT SPICE
-                  </span>
+                  <span>Kali Linux</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Digital Electronics</span>
+                  <span>Penetration Testing</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Verilog</span>
+                  <span>OSINT (Open-Source Intelligence)</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>HDL</span>
+                  <span>Nmap & Port Scanning</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Signal Processing</span>
+                  <span>Threat & Vulnerability Analysis</span>
                 </div>
+
                 <div className="flex items-start">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Engineering Problem Solving</span>
+                  <span>AI-Integrated Security Tools</span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* ✅ WEB SKILLS CARD */}
+          {/* TECHNICAL SKILLS CARD */}
           <div
             ref={fourthCardRef}
             className={`relative sm:ml-16 md:ml-60 transition-all duration-700 ease-out transform ${
@@ -158,36 +168,48 @@ const AboutWithCoreFocusAndSkills = () => {
               before:w-8 sm:before:w-14 md:before:w-74 before:h-[2px] before:bg-white/30"
             >
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
-                Web Skills (Basic)
+                Technical Skills
               </h2>
+
               <div className="text-white/70 leading-relaxed text-sm sm:text-base">
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>React.js</span>
+                  <span>Python</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Tailwind CSS</span>
+                  <span>C Programming</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Next.js</span>
+                  <span>JavaScript</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>JavaScript (ES6+)</span>
+                  <span>HTML & CSS</span>
                 </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>HTML / CSS</span>
+                  <span>SQL & MongoDB</span>
                 </div>
+
+                <div className="flex items-start mb-1">
+                  <span className="mr-2 text-xs sm:text-sm">•</span>
+                  <span>Linux Environment</span>
+                </div>
+
                 <div className="flex items-start mb-1">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
                   <span>Git & GitHub</span>
                 </div>
+
                 <div className="flex items-start">
                   <span className="mr-2 text-xs sm:text-sm">•</span>
-                  <span>Python</span>
+                  <span>Applied AI for Security</span>
                 </div>
               </div>
             </div>

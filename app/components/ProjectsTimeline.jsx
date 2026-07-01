@@ -149,13 +149,13 @@ const ElectronicsProjects = () => {
               before:w-8 sm:before:w-14 before:h-[2px] before:bg-white/30"
             >
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
-                Electronics Projects
+                Cybersecurity Projects
               </h2>
 
               <p className="text-white/70 leading-relaxed text-sm sm:text-base">
-                My core interest lies in Electronics Engineering, where I enjoy
-                building hardware-based projects involving embedded systems,
-                sensors, and circuit design.
+                My core interest lies in Cybersecurity, where I enjoy building
+                security-focused projects involving network analysis,
+                penetration testing, AI integration, and
               </p>
             </div>
           </div>
@@ -169,9 +169,9 @@ const ElectronicsProjects = () => {
             className="relative mt-8 sm:mt-10 pl-0 sm:pl-14 space-y-6 sm:space-y-6"
           >
             {/* Vertical lines - Hidden on small screens */}
-            <div className="hidden sm:block absolute left-12 sm:left-50 bottom-16 sm:bottom-92 h-16 sm:h-19 w-[2px] bg-white/20"></div>
-            <div className="hidden sm:block absolute left-10 sm:left-40 bottom-8 sm:bottom-48 h-24 sm:h-63 w-[2px] bg-white/20"></div>
-            <div className="hidden sm:block absolute left-8 sm:left-30 bottom-1 sm:bottom-10 h-32 sm:h-101 w-[2px] bg-white/20"></div>
+            <div className="hidden sm:block absolute left-12 sm:left-50 bottom-16 sm:bottom-98 h-16 sm:h-19 w-[2px] bg-white/20"></div>
+            <div className="hidden sm:block absolute left-10 sm:left-40 bottom-8 sm:bottom-54 h-24 sm:h-63 w-[2px] bg-white/20"></div>
+            <div className="hidden sm:block absolute left-8 sm:left-30 bottom-1 sm:bottom-16 h-32 sm:h-101 w-[2px] bg-white/20"></div>
 
             {/* Project 1 */}
             <div
@@ -188,16 +188,16 @@ const ElectronicsProjects = () => {
                 <div className="w-full max-w-lg rounded-xl border border-white/15 bg-white/5 backdrop-blur-md p-4 sm:p-5 shadow-md flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                      Smart Waste Segregation System
+                      AI-Powered IP Analyser
                     </h3>
+
                     <p className="text-white/60 mt-1 text-sm sm:text-base">
-                      Sensor-based electronics project to automatically classify
-                      waste into categories.
+                      AI-assisted cybersecurity project to investigate
+                      suspicious IP addresses and domains using threat
+                      intelligence.
                     </p>
                   </div>
-                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
-                    
-                  </span>
+                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center"></span>
                 </div>
               </div>
             </div>
@@ -217,16 +217,15 @@ const ElectronicsProjects = () => {
                 <div className="w-full max-w-lg rounded-xl border border-white/15 bg-white/5 backdrop-blur-md p-4 sm:p-5 shadow-md flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                      ESP32 IoT Monitoring Device
+                      Website Safety Checker
                     </h3>
+
                     <p className="text-white/60 mt-1 text-sm sm:text-base">
-                      Real-time monitoring system using ESP32, sensors, and
-                      wireless communication.
+                      Security analysis tool using Python, Nmap, and
+                      vulnerability scanning for website assessment.
                     </p>
                   </div>
-                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
-                    
-                  </span>
+                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center"></span>
                 </div>
               </div>
             </div>
@@ -246,17 +245,16 @@ const ElectronicsProjects = () => {
                 <div className="w-full max-w-lg rounded-xl border border-white/15 bg-white/5 backdrop-blur-md p-4 sm:p-5 shadow-md flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                      Digital Counter Using Logic ICs
+                      PW Vault Password Manager
                     </h3>
+
                     <p className="text-white/60 mt-1 text-sm sm:text-base">
-                      Developed digital circuits using TTL/CMOS logic ICs.
-                      Gained hands-on experience in hardware assembly and
-                      debugging.
+                      Developed a secure password vault using SHA hashing.
+                      Gained hands-on experience in credential storage and
+                      secure data management.
                     </p>
                   </div>
-                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center">
-                    
-                  </span>
+                  <span className="text-lg ml-0 sm:ml-4 self-end sm:self-center"></span>
                 </div>
               </div>
             </div>
@@ -283,12 +281,13 @@ const ElectronicsProjects = () => {
               before:w-8 sm:before:w-14 before:h-[2px] before:bg-white/30"
             >
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3 sm:mb-4">
-                Web Development Projects
+                Research & Internships
               </h2>
 
               <p className="text-white/70 leading-relaxed text-sm sm:text-base">
-                I also enjoy building full-stack web applications using modern
-                frameworks like Next.js, MongoDB, and Razorpay integrations.
+                I also gained practical experience through cybersecurity and AI
+                internships, working on research projects, threat analysis, and
+                intelligent security solutions for real-world applications.
               </p>
             </div>
           </div>
@@ -299,9 +298,9 @@ const ElectronicsProjects = () => {
 
           <div className="relative mt-8 sm:mt-12 pl-0 sm:pl-14 space-y-6 sm:space-y-10">
             {/* Vertical lines - Hidden on small screens */}
-            <div className="hidden sm:block absolute left-12 sm:left-50 bottom-14 sm:bottom-76 h-16 sm:h-23 w-[2px] bg-white/20"></div>
-            <div className="hidden sm:block absolute left-10 sm:left-40 bottom-6 sm:bottom-36 h-20 sm:h-63 w-[2px] bg-white/20"></div>
-            <div className="hidden sm:block absolute left-8 sm:left-30 bottom-3 h-28 sm:h-96 w-[2px] bg-white/20"></div>
+            <div className="hidden sm:block absolute left-12 sm:left-50 bottom-14 sm:bottom-94 h-16 sm:h-23 w-[2px] bg-white/20"></div>
+            <div className="hidden sm:block absolute left-10 sm:left-40 bottom-6 sm:bottom-48 h-20 sm:h-69 w-[2px] bg-white/20"></div>
+            <div className="hidden sm:block absolute left-8 sm:left-30 bottom-9 h-28 sm:h-108 w-[2px] bg-white/20"></div>
 
             {/* Web Project 1 */}
             <div
@@ -320,10 +319,11 @@ const ElectronicsProjects = () => {
                 <div className="w-full max-w-lg rounded-xl border border-white/15 bg-white/5 backdrop-blur-md p-4 sm:p-5 shadow-md flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                      Get Me A Chai
+                      IIT Gandhinagar Internship
                     </h3>
                     <p className="text-white/60 mt-1 text-sm sm:text-base">
-                      A donation and fundraising platform for real-world causes.
+                      Cybersecurity research internship focused on AI-powered
+                      threat analysis.
                     </p>
                   </div>
 
@@ -357,10 +357,11 @@ const ElectronicsProjects = () => {
                 <div className="w-full max-w-lg rounded-xl border border-white/15 bg-white/5 backdrop-blur-md p-4 sm:p-5 shadow-md flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                      Waste Segregation Website
+                      IBM SkillsBuild AI Internship
                     </h3>
                     <p className="text-white/60 mt-1 text-sm sm:text-base">
-                      A platform to educate and manage waste segregation.
+                      Applied AI to solve sustainability challenges through
+                      real-world projects.
                     </p>
                   </div>
 
@@ -391,13 +392,14 @@ const ElectronicsProjects = () => {
               <div className="relative flex items-start">
                 <div className="hidden sm:block w-16 sm:w-70 h-[2px] bg-white/20 ml-4 sm:ml-16 mt-10 sm:mt-12"></div>
 
-                <div className="w-full max-w-lg rounded-xl border border-white/15 bg-white/5 backdrop-blur-md p-4 sm:p-5 shadow-md flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
+                <div className="w-full max-w-[750px] rounded-xl border border-white/15 bg-white/5 backdrop-blur-md p-4 sm:p-5 shadow-md flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 sm:gap-0">
                   <div className="flex-1">
                     <h3 className="text-lg sm:text-xl md:text-2xl font-semibold">
-                      AI Field Force Intelligence
+                      IEEE Research Publication
                     </h3>
                     <p className="text-white/60 mt-1 text-sm sm:text-base">
-                      Gemini AI-powered field intelligence platform.
+                      Co-authored an IEEE paper on AI-assisted cybersecurity
+                      research.
                     </p>
                   </div>
 

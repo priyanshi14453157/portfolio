@@ -5,10 +5,10 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
-  FaTwitter,
-  FaInstagram,
+  FaPhoneAlt,
+  FaMapMarkerAlt,
+  FaShieldAlt,
 } from "react-icons/fa";
-
 import useScrollFade from "../../hooks/useScrollFade";
 import emailjs from "@emailjs/browser";
 
@@ -17,38 +17,38 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       label: "Personal Email",
-      value: "anmolkumarchauhan7717@gmail.com",
-      link: "mailto:anmolkumarchauhan7717@gmail.com",
-    },
-    {
-      icon: <FaEnvelope />,
-      label: "Student Email",
-      value: "24f2100074@es.study.iitm.ac.in",
-      link: "mailto:24f2100074@es.study.iitm.ac.in",
+      value: "priyanshi14453157@gmail.com",
+      link: "mailto:priyanshi14453157@gmail.com",
     },
     {
       icon: <FaGithub />,
       label: "GitHub",
-      value: "Anmol-87",
-      link: "https://github.com/Anmol-87",
+      value: "Priyanshi",
+      link: "https://github.com/priyanshi14453157",
     },
     {
       icon: <FaLinkedin />,
       label: "LinkedIn",
-      value: "Anmol Chauhan",
-      link: "https://www.linkedin.com/in/anmol-chauhan-7a1469328/",
+      value: "Priyanshi",
+      link: "https://www.linkedin.com/in/priyanshi-p-02438a323/",
     },
     {
-      icon: <FaTwitter />,
-      label: "X (Twitter)",
-      value: "@staggered_anmol",
-      link: "https://x.com/staggered_anmol",
+      icon: <FaEnvelope />,
+      label: "Location",
+      value: "Ahmedabad, Gujarat",
+      link: "#",
     },
     {
-      icon: <FaInstagram />,
-      label: "Instagram",
-      value: "@staggered_anmol",
-      link: "https://www.instagram.com/staggered_anmol/",
+      icon: <FaEnvelope />,
+      label: "Phone",
+      value: "+91 7621888994",
+      link: "tel:+917621888994",
+    },
+    {
+      icon: <FaShieldAlt />,
+      label: "Specialization",
+      value: "Cybersecurity & AI",
+      link: "#",
     },
   ];
 

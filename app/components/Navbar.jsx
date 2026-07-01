@@ -118,7 +118,7 @@ export default function Navbar() {
           onClick={(e) => handleSmoothScroll(e, "#home")}
           className="text-white font-semibold text-lg tracking-wide"
         >
-          Anmol.dev
+          Priyanshi.dev
         </Link>
 
         {/* Desktop Links */}
