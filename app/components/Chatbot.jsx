@@ -42,6 +42,23 @@ export default function Chatbot() {
         "Hi! Welcome to Priyanshi's portfolio. Feel free to ask about her projects, skills, or background.",
     },
     {
+      question: "CV",
+      answer: (
+        <div className="space-y-3">
+          <p>You can download my latest CV below.</p>
+
+          <a
+            href="cv.pdf"
+            download
+            className="inline-block px-4 py-2 rounded-lg bg-white text-black font-semibold hover:bg-gray-200 transition"
+          >
+            📄 Download CV
+          </a>
+        </div>
+      ),
+    },
+    ,
+    {
       question: "What's your education?",
       answer:
         "Priyanshi is pursuing a B.Tech in Cybersecurity at Silver Oak University and a B.S. in Data Science and Applications from IIT Madras.",
