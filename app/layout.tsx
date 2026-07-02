@@ -26,9 +26,7 @@ export const metadata: Metadata = {
 
   keywords: [
     "Priyanshi",
-    "Priyanshi Portfolio",
     "Cybersecurity",
-    "Cyber Security",
     "Ethical Hacking",
     "Network Security",
     "OSINT",
@@ -71,7 +69,7 @@ export const metadata: Metadata = {
     description:
       "Explore Priyanshi's cybersecurity projects, AI-powered security tools, and professional portfolio.",
 
-    url: "https://priya-09.vercel.app",
+    url: "https://priya-09.vercel.app/",
 
     siteName: "Priyanshi Portfolio",
 
@@ -109,14 +107,12 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
         <Analytics />
       </body>
