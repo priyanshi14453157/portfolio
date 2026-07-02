@@ -236,7 +236,7 @@ export default function Navbar() {
           })}
 
           <a
-            href="/Anmol_Chauhan_CV.pdf"
+            href="/cv.pdf"
             download
             className="
               px-6 py-2 rounded-full
