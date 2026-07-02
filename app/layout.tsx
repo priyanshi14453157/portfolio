@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://priyanshi-portfolio.vercel.app"), // Replace with the actual deployed URL
+  metadataBase: new URL("https://priya-09.vercel.app"),
 
   title: {
     default: "Priyanshi | Cybersecurity Portfolio",
@@ -23,15 +23,12 @@ export const metadata: Metadata = {
 
   description:
     "Official portfolio of Priyanshi, a Cybersecurity Engineer and AI Security enthusiast. Explore projects in cybersecurity, AI-powered security, network security, OSINT, and secure software development.",
-  
-  verification: {
-     google: "VXy7TAJ4f-4Kgyvo_nKoSYDyBt0J-DSaa9TjJonkXZs",
-},
+
   keywords: [
     "Priyanshi",
     "Priyanshi Portfolio",
     "Cybersecurity",
-    "Cyber Security Engineer",
+    "Cyber Security",
     "Ethical Hacking",
     "Network Security",
     "OSINT",
@@ -66,7 +63,7 @@ export const metadata: Metadata = {
   },
 
   verification: {
-    google: "YOUR_GOOGLE_VERIFICATION_CODE",
+    google: "VXy7TAJ4f-4Kgyvo_nKoSYDyBt0J-DSaa9TjJonkXZs",
   },
 
   openGraph: {
@@ -74,7 +71,7 @@ export const metadata: Metadata = {
     description:
       "Explore Priyanshi's cybersecurity projects, AI-powered security tools, and professional portfolio.",
 
-    url: "https://priyanshi-portfolio.vercel.app", // Replace with actual URL
+    url: "https://priya-09.vercel.app",
 
     siteName: "Priyanshi Portfolio",
 
@@ -84,7 +81,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "/og-image.png",
+        url: "/my-photo2.jpeg",
         width: 1200,
         height: 630,
         alt: "Priyanshi Portfolio",
@@ -96,9 +93,9 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Priyanshi | Cybersecurity Portfolio",
     description:
-      "Official cybersecurity portfolio of Priyanshi.",
+      "Official portfolio of Priyanshi, showcasing cybersecurity projects and technical expertise.",
 
-    images: ["/og-image.png"],
+    images: ["/my-photo2.jpeg"],
   },
 
   icons: {
