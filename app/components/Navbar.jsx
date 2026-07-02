@@ -17,10 +17,9 @@ export default function Navbar() {
   const [visible, setVisible] = useState(true);
   const [lastScroll, setLastScroll] = useState(0);
 
-  // ✅ Active section state
   const [activeSection, setActiveSection] = useState("home");
 
-  // ✅ Scroll shrink + hide/show Navbar
+  // Scroll shrink + hide/show Navbar
   useEffect(() => {
     const handleScroll = () => {
       const currentScroll = window.scrollY;
@@ -40,10 +39,10 @@ export default function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [lastScroll]);
 
-  // ✅ Scroll Spy Observer (Active Section Highlight)
+  // Active section highlight
   useEffect(() => {
     const sections = navLinks.map((link) =>
-      document.getElementById(link.href.replace("#", ""))
+      document.getElementById(link.href.replace("#", "")),
     );
 
     const observer = new IntersectionObserver(
@@ -55,8 +54,8 @@ export default function Navbar() {
         });
       },
       {
-        threshold: 0.5, // section must be 50% visible
-      }
+        threshold: 0.5,
+      },
     );
 
     sections.forEach((section) => {
@@ -66,19 +65,22 @@ export default function Navbar() {
     return () => observer.disconnect();
   }, []);
 
-  // ✅ Dock Smooth Scale Calculation
+  // Dock hover scale
   const getScale = (index) => {
     if (hoverIndex === null) return 1;
     const distance = Math.abs(index - hoverIndex);
+
     if (distance === 0) return 1.55;
     if (distance === 1) return 1.25;
     if (distance === 2) return 1.1;
+
     return 1;
   };
 
-  // ✅ Smooth scroll handler
+  // Smooth scroll
   const handleSmoothScroll = (e, href) => {
     e.preventDefault();
+
     const targetId = href.replace("#", "");
     const targetElement = document.getElementById(targetId);
 
@@ -98,7 +100,6 @@ export default function Navbar() {
         visible ? "translate-y-0 opacity-100" : "-translate-y-24 opacity-0"
       }`}
     >
-      {/* Capsule Container */}
       <div
         className={`
           flex items-center justify-between
@@ -109,7 +110,7 @@ export default function Navbar() {
           shadow-[0_8px_30px_rgba(0,0,0,0.35)]
           transition-all duration-500 ease-out
           ${shrink ? "py-2 scale-[0.96]" : "py-3"}
-          w-[92%] max-w-4xl
+          w-[92%] max-w-5xl
         `}
       >
         {/* Logo */}
@@ -121,8 +122,8 @@ export default function Navbar() {
           Priyanshi.dev
         </Link>
 
-        {/* Desktop Links */}
-        <div className="hidden md:flex gap-4 items-center">
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex items-center gap-4">
           {navLinks.map((link, index) => {
             const sectionId = link.href.replace("#", "");
             const isActive = activeSection === sectionId;
@@ -143,7 +144,7 @@ export default function Navbar() {
                   transition-all duration-500 ease-out
                   ${
                     isActive
-                      ? "text-white bg-white/20"
+                      ? "bg-white/20 text-white"
                       : "text-gray-300 hover:text-white hover:bg-white/15"
                   }
                 `}
@@ -154,22 +155,38 @@ export default function Navbar() {
           })}
         </div>
 
-        {/* Hire Button */}
-        <Link
-          href="#contact"
-          onClick={(e) => handleSmoothScroll(e, "#contact")}
-          className="
-            hidden md:block
-            px-5 py-2 rounded-full
-            bg-white text-black font-semibold
-            transition-all duration-500 ease-out
-            hover:scale-110 hover:bg-gray-200
-          "
-        >
-          Let's Talk
-        </Link>
+        {/* Desktop Buttons */}
+        <div className="hidden md:flex items-center gap-3">
+          <a
+            href="/cv.pdf"
+            download
+            className="
+              px-5 py-2 rounded-full
+              border border-white/20
+              text-white font-semibold
+              transition-all duration-300
+              hover:bg-white hover:text-black
+              hover:scale-105
+            "
+          >
+            CV
+          </a>
 
-        {/* Mobile Hamburger */}
+          <Link
+            href="#contact"
+            onClick={(e) => handleSmoothScroll(e, "#contact")}
+            className="
+              px-5 py-2 rounded-full
+              bg-white text-black font-semibold
+              transition-all duration-300
+              hover:scale-105 hover:bg-gray-200
+            "
+          >
+            Let's Talk
+          </Link>
+        </div>
+
+        {/* Mobile Menu Button */}
         <button
           onClick={() => setOpen(!open)}
           className="md:hidden text-white text-2xl"
@@ -178,17 +195,21 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Dropdown */}
+      {/* Mobile Menu */}
       {open && (
         <div
           className="
-            absolute top-20 w-[92%] max-w-md
-            rounded-2xl bg-black/70
-            backdrop-blur-2xl border border-white/15
-            flex flex-col items-center gap-5 py-6
+            absolute top-20
+            w-[92%] max-w-md
+            rounded-2xl
+            bg-black/70
+            backdrop-blur-2xl
+            border border-white/15
+            flex flex-col items-center
+            gap-5
+            py-6
             shadow-xl
             md:hidden
-            animate-fadeIn
           "
         >
           {navLinks.map((link) => {
@@ -205,7 +226,7 @@ export default function Navbar() {
                   ${
                     isActive
                       ? "text-white font-semibold scale-110"
-                      : "text-gray-200 hover:text-white hover:scale-105"
+                      : "text-gray-300 hover:text-white"
                   }
                 `}
               >
@@ -214,12 +235,29 @@ export default function Navbar() {
             );
           })}
 
+          <a
+            href="/Anmol_Chauhan_CV.pdf"
+            download
+            className="
+              px-6 py-2 rounded-full
+              border border-white/20
+              text-white font-semibold
+              transition-all duration-300
+              hover:bg-white hover:text-black
+            "
+          >
+            Download CV
+          </a>
+
           <Link
             href="#contact"
             onClick={(e) => handleSmoothScroll(e, "#contact")}
-            className="px-6 py-2 rounded-full bg-white text-black font-semibold"
+            className="
+              px-6 py-2 rounded-full
+              bg-white text-black font-semibold
+            "
           >
-            Let's Talk 
+            Let's Talk
           </Link>
         </div>
       )}
