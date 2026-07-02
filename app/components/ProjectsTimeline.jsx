@@ -328,7 +328,7 @@ const ElectronicsProjects = () => {
                   </div>
 
                   <a
-                    href="https://github.com/Anmol-87/Get-me-a-chai"
+                    href="/dummy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-lg ml-0 sm:ml-4 self-end sm:self-center hover:scale-110 transition-transform duration-200"
@@ -366,7 +366,7 @@ const ElectronicsProjects = () => {
                   </div>
 
                   <a
-                    href="https://github.com/Anmol-87/TechSprint"
+                    href="/dummy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-lg ml-0 sm:ml-4 self-end sm:self-center hover:scale-110 transition-transform duration-200"
@@ -404,7 +404,7 @@ const ElectronicsProjects = () => {
                   </div>
 
                   <a
-                    href="https://github.com/Anmol-87/AgriAssist"
+                    href="/dummy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-lg ml-0 sm:ml-4 self-end sm:self-center hover:scale-110 transition-transform duration-200"
